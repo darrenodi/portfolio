@@ -227,7 +227,6 @@ ul li {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  width: 45px;
   background: #ebebff;
   border-radius: 8px;
   order: 1;
@@ -289,7 +288,7 @@ ul li {
   margin: 24px 0;
 }
 
-.top h1 {
+.top h2 {
   width: 200px;
   height: 100px;
   font-style: normal;
@@ -411,4 +410,12 @@ ul li {
   line-height: 20px;
   align-items: center;
   color: #253858;
+}
+
+button:hover {
+  background-color: rgb(240, 240, 243);
+}
+
+button:active {
+  transform: scale(1.5);
 }
